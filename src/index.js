@@ -58,5 +58,3 @@ export default class DreamboothFineTunningJS {
     return await response.json();
   }
 }
-
-module.exports = DreamboothFineTunningJS;
