@@ -4,7 +4,9 @@ A javascript library to create and run dreambooth models on replicate.
 
 ## Install
 
-\$ npm i dreambooth-finetunning-js
+```bash
+npm i dreambooth-finetunning-js
+```
 
 ## Usage
 
@@ -22,7 +24,7 @@ import DreamboothFineTunningJS from "dreambooth-finetunning-js";
 const API_KEY = "$YOUR_API_KEY";
 const dbft = DreamboothFineTunningJS(API_KEY);
 
-const instanceDate = "$LINK_TO_YOUR_ZIPPED_PICURES";
+const instanceData = "$LINK_TO_YOUR_ZIPPED_PICURES";
 const model = "$YOUR_REPLICATE_USERNAME/$ANY_NAME_U_WANT_FOR_YOUR_MODEL";
 const className = "$CLASS_OF_YOUR_SUBJECT"; // examples: man, woman, dog etc
 const webhookCompleted = ""; // webhook to be called once the model is created. If may leave it empty.
