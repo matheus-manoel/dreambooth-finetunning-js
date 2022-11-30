@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-class DreamboothFineTunningJS {
+export default class DreamboothFineTunningJS {
   constructor(apiKey = "") {
     this.apiKey = apiKey || process.env.DREAMBOOTH_API_KEY;
   }
