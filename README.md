@@ -22,7 +22,7 @@ npm i dreambooth-finetunning-js
 import DreamboothFineTunningJS from "dreambooth-finetunning-js";
 
 const API_KEY = "$YOUR_API_KEY";
-const dbft = DreamboothFineTunningJS(API_KEY);
+const dbft = new DreamboothFineTunningJS(API_KEY);
 
 const instanceData = "$LINK_TO_YOUR_ZIPPED_PICURES";
 const model = "$YOUR_REPLICATE_USERNAME/$ANY_NAME_U_WANT_FOR_YOUR_MODEL";
@@ -46,7 +46,7 @@ dbft
 import DreamboothFineTunningJS from "dreambooth-finetunning-js";
 
 const API_KEY = "$YOUR_API_KEY";
-const dbft = DreamboothFineTunningJS(API_KEY);
+const dbft = new DreamboothFineTunningJS(API_KEY);
 
 const prompt = "$YOUR_PROMPT_AFTER_CJW"; // example: a cjw dog in a bucket, digital art
 const verion = "$VERSION_STRING";
